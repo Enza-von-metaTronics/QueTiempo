@@ -1,7 +1,7 @@
 
 "use strict";
 
-function displayOnScreen() {
+function displayOnScreen(button) {
     console.log("Hello World!");
 };
 

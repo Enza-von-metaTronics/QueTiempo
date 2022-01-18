@@ -44,7 +44,7 @@ z-index: 0;
 }
 h4{
     margin-bottom: 3rem;
-
+    text-shadow: 1px 1px rgba(250, 43, 78, 0.938);
     font-size: 1.8rem;
 }
 .txtCont{
@@ -55,11 +55,46 @@ p{
     width: 10rem;
     margin-bottom: 4rem;
 }
+.btnBox{
+    display: grid;
+    padding: .8rem;
+}
 button{
     width: 9rem;
     height: 3rem;
     background-color: rgba(10, 45, 163, 0.486);
     font-size: 1rem;
-    color: rgba(228, 155, 59, 0.808);
+    color: rgba(253, 244, 161, 0.89);
+    text-shadow: 1px 1px rgba(250, 43, 78, 0.938);
     font-family: sans-serif;
+}
+#btn01{
+    margin-top: 2.3rem;
+}
+#btn02{
+    margin-top: 2.3rem;
+}
+#btn03{
+    margin-top: 3.2rem;
+}
+#btn04{
+    margin-top: 3.2rem;
+}
+#btn05{
+    margin-top: 3.7rem;
+}
+#btn06{
+    margin-top: 2.3rem;
+}
+#btn07{
+    margin-top: 2.3rem;
+}
+#btn08{
+    margin-top: 3.5rem;
+}
+#btn09{
+    margin-top: 2.3rem;
+}
+#btn10{
+    margin-top: 3.5rem;
 }
