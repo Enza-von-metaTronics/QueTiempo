@@ -7,7 +7,7 @@
 }
 body{   
     display: grid;
-    justify-content: center;   
+
 }
 #fraktal{
     height: 20rem;
@@ -16,22 +16,32 @@ body{
 h1{
     text-align: center;
     padding: 2rem;
+    font-weight: 100;
+    border: 2px solid rgba(151, 54, 9, 0.726);
+    border-radius: 50%;
+    margin-top: .8rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 main{
-    display: inline-block;
-    justify-items: center;
+    display: grid;
+    justify-content: center;
 
 }
 
 section{
-    display: grid;
+ /*   display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
+*/
+display: flex;
+flex-wrap: wrap;
+    justify-content: center;
 } 
 .contCont{
     padding: 2rem;
     border: 1px solid green;
     margin: 1rem;
+    display: grid;
 }
 .img-thumbnail{
     display: inline-block;
@@ -68,33 +78,26 @@ button{
     text-shadow: 1px 1px rgba(250, 43, 78, 0.938);
     font-family: sans-serif;
 }
-#btn01{
-    margin-top: 2.3rem;
+button:hover{
+    background-color: rgba(36, 78, 214, 0.849);
+    color: rgb(133, 220, 20);
 }
-#btn02{
-    margin-top: 2.3rem;
+#logoBox{
+    display: flex;
+    flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
 }
-#btn03{
-    margin-top: 3.2rem;
+#logo{
+justify-content: center;
+padding-top: 2rem;
 }
-#btn04{
-    margin-top: 3.2rem;
-}
-#btn05{
-    margin-top: 3.7rem;
-}
-#btn06{
-    margin-top: 2.3rem;
-}
-#btn07{
-    margin-top: 2.3rem;
-}
-#btn08{
-    margin-top: 3.5rem;
-}
-#btn09{
-    margin-top: 2.3rem;
-}
-#btn10{
-    margin-top: 3.5rem;
+h6{
+    font-size: .8rem;
+    font-weight: 100;
+    font-family: sans-serif;
+    padding: .8rem;
+
 }
